@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Manrope:wght@500&family=Nunito&family=Oswald&family=Playpen+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@400;600&display=swap');
+.content{
+    
+    h4{
+    font-family: 'cursive';
+    text-align: center;
+    font-size: 35px;
+    
+    }
+    &__data{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        
+    }
+    p{
+        max-width: 500px;
+        font-size: 25px;
+    }
+    h6{
+        text-align: center;
+        color: rgb(58, 58, 58);
+    }
+    padding: 20px;
+    margin: 25px;
+    border-radius: 20px;
+    background: linear-gradient(300deg, #f2ff00, #4eff02, #31e4b5);
+        background-size: 180% 180%;
+        animation: gradient-animation 5s ease infinite;
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+        
+}
